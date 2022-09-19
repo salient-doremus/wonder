@@ -14,6 +14,7 @@
         <module>Frameworks</module>
         <module>Tests</module>
         <module>Utilities</module>
+        <module>bom</module>
     </modules>
 
     <properties>
@@ -31,7 +32,7 @@
                 <plugin>
                     <groupId>org.wocommunity</groupId>
                     <artifactId>wolifecycle-maven-plugin</artifactId>
-                    <version>2.5</version>
+                    <version>2.3</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -92,13 +93,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-					<compilerArgs>
-						<compilerArg>--add-exports</compilerArg>
-						<compilerArg>java.base/sun.security.action=ALL-UNNAMED</compilerArg>
-					</compilerArgs>
                 </configuration>
             </plugin>
             <plugin>
@@ -267,11 +265,6 @@
             </dependency>
             <dependency>
                 <groupId>wonder.ajax</groupId>
-                <artifactId>MooTools</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>wonder.ajax</groupId>
                 <artifactId>YUI</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -371,26 +364,6 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>wonder.misc</groupId>
-                <artifactId>ERCaptcha</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>wonder.excel</groupId>
-                <artifactId>ExcelGenerator</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>wonder.excel</groupId>
-                <artifactId>ERExcelLook</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>wonder.ajax</groupId>
-                <artifactId>GoogleChart</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>javax.activation</groupId>
                 <artifactId>activation</artifactId>
                 <version>1.1.1</version>
@@ -416,11 +389,6 @@
                 <version>2.0.6</version>
             </dependency>
             <dependency>
-                <groupId>ch.qos.reload4j</groupId>
-                <artifactId>reload4j</artifactId>
-                <version>1.2.22</version>
-            </dependency>
-            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.13.1</version>
@@ -438,12 +406,37 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>1.7.25</version>
+                <version>1.7.36</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
-                <version>1.7.25</version>
+                <version>1.7.36</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j-impl</artifactId>
+                <version>2.17.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>2.17.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>2.17.1</version>
             </dependency>
             <dependency>
                 <groupId>ognl</groupId>
@@ -654,11 +647,6 @@
                 <version>10.11.1.1</version>
             </dependency>
             <dependency>
-                <groupId>com.microsoft.sqlserver</groupId>
-                <artifactId>mssql-jdbc</artifactId>
-                <version>10.2.0.jre8</version>
-            </dependency>
-            <dependency>
                 <groupId>net.sf.ezmorph</groupId>
                 <artifactId>ezmorph</artifactId>
                 <version>1.0.6</version>
@@ -723,7 +711,7 @@
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
-                <version>3.17</version>
+                <version>3.14</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.xmlgraphics</groupId>
@@ -749,6 +737,16 @@
                 <groupId>xml-apis</groupId>
                 <artifactId>xml-apis</artifactId>
                 <version>1.3.04</version>
+            </dependency>
+            <dependency>
+                <groupId>xerces</groupId>
+                <artifactId>xercesImpl</artifactId>
+                <version>2.6.2</version>
+            </dependency>
+            <dependency>
+                <groupId>xerces</groupId>
+                <artifactId>xmlParserAPIs</artifactId>
+                <version>2.6.2</version>
             </dependency>
             <dependency>
                 <groupId>net.sf.jasperreports</groupId>
