@@ -881,16 +881,10 @@
 
     <distributionManagement>
         <repository>
-            <id>wocommunity.deployment</id>
-            <name>WOCommunity Maven2 Releases Repository</name>
-            <url>https://maven.wocommunity.org/content/repositories/releases</url>
+            <id>github-ofwonder</id>
+            <name>GitHub salient-doremus Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/salient-doremus/wonder</url>
         </repository>
-        <snapshotRepository>
-            <id>wocommunity.deployment</id>
-            <uniqueVersion>false</uniqueVersion>
-            <name>WOCommunity Maven2 Snapshots Repository</name>
-            <url>https://maven.wocommunity.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <scm>
