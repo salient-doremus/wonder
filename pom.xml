@@ -891,6 +891,6 @@
         <connection>scm:git:https://github.com/wocommunity/wonder.git</connection>
         <url>scm:git:https://github.com/wocommunity/wonder.git</url>
         <developerConnection>scm:git:https://github.com/wocommunity/wonder.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 </project>
