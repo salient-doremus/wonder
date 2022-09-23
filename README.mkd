@@ -1,6 +1,6 @@
 ![](https://github.com/wocommunity/wonder/workflows/Wonder%20Master%20Build/badge.svg)
 
-About Project Wonder
+About Project Wonder.
 --------------------
 
 Project Wonder is the largest open source collection of reusable WebObjects frameworks, applications and 
