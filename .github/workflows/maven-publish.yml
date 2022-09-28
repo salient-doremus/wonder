@@ -27,6 +27,8 @@ jobs:
         cache: 'maven'
         # Tis creates a settingx.xml with the credentials
         server-id: jfrog # Value of the distributionManagement/repository/id field of the pom.xml
+        server-username: apiuser
+        server-password: apitoken
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
 #    - name: Change group
@@ -38,5 +40,5 @@ jobs:
     - name: Publish to jFrog
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
-        GITHUB_ACTOR: github-actions-bot
-        GITHUB_TOKEN: ${{ secrets.JFROG_ACTIONS_TOKEN }}
+        apiuser: github-actions-bot
+        apitoken: ${{ secrets.JFROG_ACTIONS_TOKEN }}
