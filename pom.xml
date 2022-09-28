@@ -879,11 +879,11 @@
         </pluginRepository>
     </pluginRepositories>
 
+
     <distributionManagement>
         <repository>
-            <id>github-ofwonder</id>
-            <name>GitHub salient-doremus Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/salient-doremus/wonder</url>
+            <id>jfrog</id>
+            <url>https://salient.jfrog.io/artifactory/ofwonder</url>
         </repository>
     </distributionManagement>
 
