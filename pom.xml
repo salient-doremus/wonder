@@ -883,7 +883,7 @@
     <distributionManagement>
         <repository>
             <id>jfrog</id>
-            <url>https://saldor.jfrog.io/artifactory/wonder-libs-snapshot</url>
+            <url>https://jfrog.salient.de/artifactory/openforms-wonder</url>
         </repository>
     </distributionManagement>
 

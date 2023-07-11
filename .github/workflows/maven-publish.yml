@@ -41,5 +41,5 @@ jobs:
     - name: Publish to jFrog
       run: mvn deploy --projects wonder:wonder,wonder.core:ERDirectToWeb,wonder.core:ERExtensions,wonder.core:ERJavaMail,wonder.core:JavaWOExtensions,wonder.core:WOOgnl,wonder.ajax:Ajax,wonder.eof:ERJGroupsSynchronizer,wonder.plugins:MySQLPlugIn -s $GITHUB_WORKSPACE/settings.xml
       env:
-        apiuser: github-actions-bot
+        apiuser: github
         apitoken: ${{ secrets.JFROG_ACTIONS_TOKEN }}
