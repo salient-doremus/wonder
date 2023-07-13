@@ -36,10 +36,10 @@ jobs:
 #      run: find . -type f -name 'pom.xml' -exec sed -i "s/<groupId>wonder/<groupId>ofwonder/g" {} \;
 
     - name: Build with Maven
-      run: mvn -B package --projects wonder:wonder,wonder.core:ERDirectToWeb,wonder.core:ERExtensions,wonder.core:ERJavaMail,wonder.core:JavaWOExtensions,wonder.core:WOOgnl,wonder.frameworks:ajax,wonder.ajax:Ajax,wonder.eof:ERJGroupsSynchronizer,wonder.plugins:MySQLPlugIn -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn -B package --projects wonder:wonder,wonder.core:ERDirectToWeb,wonder.core:ERExtensions,wonder.core:ERJavaMail,wonder.core:JavaWOExtensions,wonder.core:WOOgnl,wonder.frameworks:ajax,wonder.ajax:Ajax,wonder.frameworks:eof,wonder.eof:ERJGroupsSynchronizer,wonder.plugins:MySQLPlugIn -s $GITHUB_WORKSPACE/settings.xml
 
     - name: Publish to jFrog
-      run: mvn deploy --projects wonder:wonder,wonder.core:ERDirectToWeb,wonder.core:ERExtensions,wonder.core:ERJavaMail,wonder.core:JavaWOExtensions,wonder.core:WOOgnl,wonder.frameworks:ajax,wonder.ajax:Ajax,wonder.eof:ERJGroupsSynchronizer,wonder.plugins:MySQLPlugIn -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy --projects wonder:wonder,wonder.core:ERDirectToWeb,wonder.core:ERExtensions,wonder.core:ERJavaMail,wonder.core:JavaWOExtensions,wonder.core:WOOgnl,wonder.frameworks:ajax,wonder.ajax:Ajax,wonder.frameworks:eof,wonder.eof:ERJGroupsSynchronizer,wonder.plugins:MySQLPlugIn -s $GITHUB_WORKSPACE/settings.xml
       env:
         apiuser: github
         apitoken: ${{ secrets.JFROG_ACTIONS_TOKEN }}
