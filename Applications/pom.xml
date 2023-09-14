@@ -11,10 +11,33 @@
 	<packaging>pom</packaging>
 	<name>Applications</name>
 	<modules>
-		<module>BugTracker</module>
-		<module>ERMailer</module>
 		<module>JavaMonitor</module>
-		<module>Uber</module>
 		<module>wotaskd</module>
 	</modules>
+    <repositories>
+        <repository>
+            <snapshots/>
+            <id>jfrog</id>
+            <name>wonder-libs-snapshot</name>
+            <url>https://jfrog.salient.de/artifactory/openforms-wonder</url>
+        </repository>
+       <repository>
+           <id>wocommunity</id>
+           <name>WOCommunity Maven 2 Releases Repository</name>
+           <url>https://maven.wocommunity.org/content/groups/public</url>
+           <snapshots>
+               <enabled>true</enabled>
+           </snapshots>
+           <releases>
+               <enabled>true</enabled>
+           </releases>
+       </repository>
+       <repository>
+           <id>github-ojp--open-content</id>
+           <name>GitHub salient-doremus Apache Maven Packages</name>
+           <url>https://maven.pkg.github.com/salient-doremus/ojp--open-content</url>
+       </repository>
+    </repositories>
+
+
 </project>
