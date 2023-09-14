@@ -69,7 +69,7 @@ public class MObject implements NSKeyValueCoding {
     public static Integer _zeroInteger = Integer.valueOf(0);
 
     public static String directActionString = "/cgi-bin/WebObjects/wotaskd.woa/wa/monitorRequest";
-    public static String adminActionStringPrefix = "/cgi-bin/WebObjects/";
+    public static String adminActionStringPrefix = "/openforms/";
     public static String adminActionStringPostfix = ".woa/womp/instanceRequest";
     /**********/
 
