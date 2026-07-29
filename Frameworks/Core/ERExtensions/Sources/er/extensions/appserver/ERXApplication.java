@@ -761,13 +761,10 @@ public abstract class ERXApplication extends ERXAjaxApplication implements ERXGr
 
 						if (mainBundleJarPattern.matcher(urlAsString.toLowerCase()).find()) {
 							try {
-								propertiesPath = new URL(URLDecoder.decode(urlAsString, CharEncoding.UTF_8));
+								propertiesPath = url;
 								userPropertiesPath = new URL(propertiesPath.toExternalForm() + userName);
 							}
 							catch (MalformedURLException exception) {
-								exception.printStackTrace();
-							}
-							catch (UnsupportedEncodingException exception) {
 								exception.printStackTrace();
 							}
 
