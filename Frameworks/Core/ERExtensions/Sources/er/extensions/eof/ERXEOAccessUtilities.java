@@ -271,8 +271,8 @@ public class ERXEOAccessUtilities {
 	        	adaptorChannel.openChannel();
 	        }
 	        EOSQLExpressionFactory factory = adaptorChannel.adaptorContext().adaptor().expressionFactory();
-			if (ERXEOAccessUtilities.log.isInfoEnabled()) {
-				ERXEOAccessUtilities.log.info("Executing " + exp);
+			if (ERXEOAccessUtilities.log.isDebugEnabled()) {
+				ERXEOAccessUtilities.log.debug("Executing " + exp);
 			}
 	        // If channel.evaluateExpression throws when committing, it won't close the JDBC transaction
 	        // Probably a bug in JDBCChannel, but we must take care of it
