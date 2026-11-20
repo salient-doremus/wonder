@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <replaceregexp file="/Users/rene/Code/SalDorWonder/wonder/Frameworks/JakartaWOJSPServlet/target/classes/Resources/Info.plist" match="JavaWOJSPServlet" replace="JakartaWOJSPServlet" byline="true" />
+    <replaceregexp file="/Users/rene/Code/SalDorWonder/wonder/Frameworks/JakartaWOJSPServlet/target/classes/Resources/Info.plist" match="javawojspservlet" replace="jakartawojspservlet" byline="true" />
+  </target>
+</project>

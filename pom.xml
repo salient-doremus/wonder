@@ -166,7 +166,7 @@
             </dependency>
             <dependency>
                 <groupId>com.webobjects</groupId>
-                <artifactId>JavaWOJSPServlet</artifactId>
+                <artifactId>JakartaWOJSPServlet</artifactId>
                 <version>${webobjects.version}</version>
             </dependency>
             <dependency>
@@ -394,6 +394,18 @@
               <artifactId>GoogleChart</artifactId>
               <version>${project.version}</version>
             </dependency>
+            <!-- Source: https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+            <dependency>
+                <groupId>jakarta.servlet</groupId>
+                <artifactId>jakarta.servlet-api</artifactId>
+                <version>6.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.servlet.jsp</groupId>
+                <artifactId>jakarta.servlet.jsp-api</artifactId>
+                <version>3.1.1</version>
+            </dependency>
+
             <dependency>
                 <groupId>javax.activation</groupId>
                 <artifactId>activation</artifactId>

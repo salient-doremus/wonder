@@ -22,5 +22,6 @@
 		<module>PlugIns</module>
 		<module>Reporting</module>
 		<module>WOAdaptors</module>
+		<module>JakartaWOJSPServlet</module>
 	</modules>
 </project>

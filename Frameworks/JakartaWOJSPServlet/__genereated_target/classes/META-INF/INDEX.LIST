@@ -1,0 +1,9 @@
+JarIndex-Version: 1.0
+
+JavaWOJSPServlet.jar
+Resources
+WebServerResources
+com
+com/webobjects
+com/webobjects/jspservlet
+

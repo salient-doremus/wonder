@@ -2,9 +2,9 @@ package er.extensions.jspservlet;
 
 import java.lang.reflect.Method;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.UnavailableException;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.UnavailableException;
 
 import com.webobjects.appserver.WOApplication;
 import com.webobjects.foundation.NSNotificationCenter;
