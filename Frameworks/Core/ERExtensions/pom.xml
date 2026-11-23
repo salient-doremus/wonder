@@ -65,8 +65,8 @@
             <artifactId>JavaJDBCAdaptor</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.webobjects</groupId>
-            <artifactId>JavaWOJSPServlet</artifactId>
+            <groupId>wonder.frameworks</groupId>
+            <artifactId>JakartaWOJSPServlet</artifactId>
         </dependency>
         <dependency>
             <groupId>com.webobjects</groupId>

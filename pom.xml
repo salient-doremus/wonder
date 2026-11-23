@@ -165,7 +165,7 @@
                 <version>${webobjects.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.webobjects</groupId>
+                <groupId>wonder.frameworks</groupId>
                 <artifactId>JakartaWOJSPServlet</artifactId>
                 <version>${webobjects.version}</version>
             </dependency>

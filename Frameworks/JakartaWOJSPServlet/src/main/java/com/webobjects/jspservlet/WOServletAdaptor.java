@@ -196,7 +196,7 @@ public class WOServletAdaptor extends HttpServlet {
             return appWrapper;
         } catch (Throwable ex) {
             ex.printStackTrace();
-            throw new RuntimeException("Unable to create an instance of class com.webobjects.jspservlet._WOApplicationWrapper. javawojspservlet.jar must be in WOClasspath in your web.xml");
+            throw new RuntimeException("Unable to create an instance of class com.webobjects.jspservlet._WOApplicationWrapper. jakartawojspservlet.jar must be in WOClasspath in your web.xml");
         }
     }
 
