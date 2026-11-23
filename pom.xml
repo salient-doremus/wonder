@@ -577,11 +577,6 @@
                 <version>3.6.9.Final</version>
             </dependency>
             <dependency>
-                <groupId>commons-logging</groupId>
-                <artifactId>commons-logging</artifactId>
-                <version>1.2</version>
-            </dependency>
-            <dependency>
                 <groupId>com.gammastream</groupId>
                 <artifactId>gamma-core</artifactId>
                 <version>1.0</version>
