@@ -2,8 +2,6 @@ package er.attachment.components;
 
 import com.webobjects.appserver.WOContext;
 
-import er.ajax.AjaxFlexibleFileUpload;
-
 /**
  * <p>
  * ERAttachmentFlexibleUpload provides a very simple wrapper around an AjaxFlexibleUpload

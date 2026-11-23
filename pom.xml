@@ -490,11 +490,6 @@
                 <version>1.0</version>
             </dependency>
             <dependency>
-                <groupId>com.google.code</groupId>
-                <artifactId>jabsorb</artifactId>
-                <version>1.2.2</version>
-            </dependency>
-            <dependency>
                 <groupId>jfree</groupId>
                 <artifactId>jcommon</artifactId>
                 <version>1.0.14</version>

@@ -46,10 +46,6 @@
 			<artifactId>JavaEOControl</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.code</groupId>
-			<artifactId>jabsorb</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
