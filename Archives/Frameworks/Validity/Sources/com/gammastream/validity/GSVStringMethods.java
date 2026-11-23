@@ -397,12 +397,12 @@ public class GSVStringMethods {
     public final static boolean isValidEmailAddress(Object object, Object attribute, String key, NSDictionary params){
         if(attribute instanceof String) {
             try {
-                javax.mail.internet.InternetAddress add = new javax.mail.internet.InternetAddress((String)attribute);
+                jakarta.mail.internet.InternetAddress add = new jakarta.mail.internet.InternetAddress((String)attribute);
                 add.validate();
                 // get sure it is only the address and no personal
                 return (add.getPersonal() == null);
 
-            } catch(javax.mail.internet.AddressException ae) {
+            } catch(jakarta.mail.internet.AddressException ae) {
                 //ignore
                 NSLog.err.appendln(ae.getMessage());
             }

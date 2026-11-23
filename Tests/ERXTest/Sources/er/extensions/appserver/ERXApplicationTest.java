@@ -29,8 +29,7 @@ public class ERXApplicationTest extends TestCase {
         System.out.println("  versionStringForFrameworkNamed(JavaFoundation): "+ERXProperties.versionStringForFrameworkNamed("JavaFoundation"));
         System.out.println("  versionStringForFrameworkNamed(JavaJDBCAdaptor): "+ERXProperties.versionStringForFrameworkNamed("JavaJDBCAdaptor"));
         System.out.println("  versionStringForFrameworkNamed(JavaWebObjects): "+ERXProperties.versionStringForFrameworkNamed("JavaWebObjects"));
-        System.out.println("  versionStringForFrameworkNamed(JavaWOJSPServlet): "+ERXProperties.versionStringForFrameworkNamed("JavaWOJSPServlet"));
-        System.out.println("  versionStringForFrameworkNamed(JavaXML): "+ERXProperties.versionStringForFrameworkNamed("JavaXML"));
+        System.out.println("  versionStringForFrameworkNamed(JakartaWOJSPServlet): "+ERXProperties.versionStringForFrameworkNamed("JakartaWOJSPServlet"));
 */
     }
 }

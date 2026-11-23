@@ -9,7 +9,7 @@ package er.javamail.mailer;
 import java.io.File;
 import java.util.Enumeration;
 
-import javax.mail.MessagingException;
+import jakarta.mail.MessagingException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
