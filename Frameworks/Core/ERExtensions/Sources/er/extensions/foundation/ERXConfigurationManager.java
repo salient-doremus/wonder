@@ -395,7 +395,8 @@ public class ERXConfigurationManager {
 	/**
 	 * Is the application deployed as a servlet? The heuristic used here is
 	 * whether {@link #contextClassName()} is set to {@code WOServletContext} or
-	 * {@code ERXWOServletContext} (or some other name containing "Servlet").
+	 * {@code ERXWOServletContext} (or some other name containing "Servlet") or
+     * <code>JakartaWOJSPServlet.framework</code>.
 	 * 
 	 * @return {@code true} if the application is deployed as a servlet,
 	 *         otherwise {@code false}
